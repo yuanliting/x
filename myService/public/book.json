@@ -1,0 +1,19 @@
+{
+    "books":[
+        {
+            "name":"HTML权威指南",
+            "price":99.9,
+            "author":"yan"
+        },
+        {
+            "name":"CSS权威指南",
+            "price":96,
+            "author":"yan"
+        },
+        {
+            "name":"VUE权威指南",
+            "price":199.9,
+            "author":"yan"
+        }
+    ]
+}

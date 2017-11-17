@@ -1,0 +1,21 @@
+1，下载vux组件库。
+npm install vux --save
+
+
+2，下载vux-loader
+npm install vux-loader --save
+
+
+3，在webpack.config.js中导入vux-loader，并合并到原来的配置对象上
+var vuxLoader = require("vux-loader");
+module.exports = vuxLoader.merge(originalConfig, {
+  plugins: ['vux-ui']
+});
+其中originalConfig是原来的配置对象
+
+
+4，下载less-loader（必须先下载less）
+npm install less-loader --save
+
+
+
